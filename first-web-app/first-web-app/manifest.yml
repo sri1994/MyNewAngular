@@ -1,0 +1,5 @@
+---
+applications:
+- name: digital-custom-web-app-345
+  path: dist
+  random-route: true
