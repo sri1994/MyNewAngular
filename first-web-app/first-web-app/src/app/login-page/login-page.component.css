@@ -1,23 +1,28 @@
 .login-form-container {
     background-color: white;
-    width: 25%;
-    height: 16rem;
+    width: auto;
+    height: auto;
     border-radius: 0.5rem;
-    box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem grey;
-    margin-left: 7rem;
-    margin-top: 5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem skyblue;
+    margin-left: 20%;
+    margin-top: 10%;
+    opacity: 0.7;
 }
 
 .login-form {
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  text-align: center;
 }
 
 .form-fields {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  border: 2px solid #9a9a9a;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid skyblue;
   border-radius: 0.25rem;
   height: 1.5rem;
+  width: 80%;
 }
 
 .login-heading {
@@ -25,4 +30,9 @@
   font-weight: 400;
   text-align: center;
   margin-left: -5%;
+}
+
+.sign-button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

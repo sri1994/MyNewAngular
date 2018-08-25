@@ -1,50 +1,60 @@
-<div class="login-form-container">
-  <form class="login-form">
-    <section class="form-block">
-
-      <div class="row">
-        <div class="col-lg-12 col-md-12 login-heading">
-          <i><h2>Login</h2></i>
-        </div>
-        <div class="col-lg-12 col-md-12">
-          <h5>
-            <strong>
-              <label for="username">Username :</label>
-            </strong>
-          </h5>
-        </div>
-        <div class="col-lg-12 col-md-12">
-          <input class="form-control form-fields" type="text" id="username" size="35" placeholder="Enter user name">
-        </div>
-        <div class="col-lg-12 col-md-12">
-          <h5>
-            <strong>
-              <label for="password">Password :</label>
-            </strong>
-          </h5>
-        </div>
-        <div class="col-lg-12 col-md-12">
-          <input class="form-control form-fields" type="password" id="password" size="35" placeholder="Enter Password">
-        </div>
-        <div class="col-lg-2 col-md-2">
-          <span>&nbsp;</span>
-        </div>
-        <div class="col-lg-3 col-md-3">
-          <button class="btn">Sign up</button>
-        </div>
-        <div class="col-lg-1 col-md-1">
-          <span>&nbsp;</span>
-        </div>
-        <div class="col-lg-3 col-md-3">
-          <button class="btn btn-primary" (click)="btnClick($event)">Sign In</button>
-        </div>
-        <div class="col-lg-3 col-md-3">
-          <span>&nbsp;</span>
-        </div>
-
-      </div>
-
-    </section>
-
-  </form>
+<div class="row">
+  <div class="col-lg-2 col-md-2 col-sm-1">
+    
+  </div>
+  <div class="col-lg-6 col-md-8 col-sm-10">
+    <div class="login-form-container">
+      <form class="login-form">
+        <section class="form-block">
+    
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <img src="assets/logo.jpg" alt="logo">
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <h5>
+                <strong>
+                  <label for="username">Username :</label>
+                </strong>
+              </h5>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <input class="form-control form-fields" type="text" id="username" maxlength="20" placeholder="Enter user name">
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <h5>
+                <strong>
+                  <label for="password">Password :</label>
+                </strong>
+              </h5>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <input class="form-control form-fields" type="password" id="password" maxlength="20" placeholder="Enter Password">
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <span>&nbsp;</span>
+            </div>
+            <div class="col-lg-2 col-md-2 sign-button">
+              <button class="btn" (click)="signUp()">Sign up</button>
+            </div>
+            <div class="col-lg-1 col-md-1">
+              <span>&nbsp;</span>
+            </div>
+            <div class="col-lg-2 col-md-2 sign-button">
+              <button class="btn btn-primary" (click)="btnClick($event)">Sign In</button>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <span>&nbsp;</span>
+            </div>
+    
+          </div>
+    
+        </section>
+    
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-2 col-sm-1">
+    
+  </div>
 </div>
